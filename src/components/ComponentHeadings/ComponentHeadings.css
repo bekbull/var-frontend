@@ -1,0 +1,21 @@
+.component-heading {
+    width: 100%;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    letter-spacing: -0.04em;
+    
+    color: #FFFFFF;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #DADADA;
+
+}
+
+@media screen and (max-width: 767px) {
+    .component-heading {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

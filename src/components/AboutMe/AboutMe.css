@@ -1,0 +1,159 @@
+.aboutme {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 110px 0 0;
+}
+
+.student {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin: 60px 0 100px;
+}
+
+.student__wrapper {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.student__name {
+    width: 100%;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    /* identical to box height, or 116% */
+    
+    letter-spacing: -0.04em;
+    
+    margin: 0 0 20px;
+    color: #FFFFFF;
+}
+
+.student__desc {
+    width: 100%;
+    margin: 0 0 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+}
+
+.student__about {
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    
+    color: #FFFFFF;
+    
+    margin: 0 0 100px;
+    mix-blend-mode: normal;
+}
+
+.student__links {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.student__link-wrapper {
+    margin: 0 20px 0 0;
+}
+
+.student__link {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.student__image {
+    height: 325px;
+    width: 270px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutme {
+        width: calc(100% - 60px);
+        padding: 90px 0 0;
+    }
+
+    .student__wrapper {
+        width: 350px;
+    }
+    
+    .student__name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .student__desc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .student__about {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .aboutme {
+        width: calc(100% - 36px);
+        margin: 0 auto;
+        padding: 70px 0 0;
+    }
+
+    .student__wrapper {
+        width: 292px;
+    }
+
+    .student__image {
+        width: 292px;
+        height: 352px;
+        margin: 0 0 40px;
+    }
+
+    .student {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 60px 0 70px;
+    }
+
+    .student__name {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .student__desc {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .student__about {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 0 0 40px;
+    }
+
+}
