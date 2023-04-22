@@ -51,5 +51,3 @@ To use the MERN Movie Saver App, follow these steps:
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).# Movie explorer
 
- Frontend: [https://movieexplorer.nomoredomains.club/](https://movieexplorer.nomoredomains.club/).
- Backend: [https://api.movieexplorer.nomoredomains.icu/](https://api.movieexplorer.nomoredomains.icu/).
