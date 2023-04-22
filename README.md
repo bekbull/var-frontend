@@ -49,5 +49,5 @@ To use the MERN Movie Saver App, follow these steps:
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).# Movie explorer
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
